@@ -15,7 +15,6 @@ public class DestroyAfter : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Instantiate(pickupEffect, transform.position, transform.rotation);
-            Destroy(gameObject);
         }
     }
 }
